@@ -1,0 +1,30 @@
+.sidebar {
+  display: flex;
+  justify-content: flex-start;
+  min-height: 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container.light {
+  background: #fff;
+  color: #000;
+}
+
+.app-container.dark {
+  background: #111111;
+  color: #fff;
+}
+.app-container {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.contenu {
+  display: flex;
+  justify-content: center;
+}
+.dark .main {
+  background-color: #111111;
+}
