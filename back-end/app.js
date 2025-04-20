@@ -1,0 +1,17 @@
+const express = require("express");
+const cookieParser = require("cookie-parser");
+const cors = require("cors");
+const limiter = require("./src/middlewares/rate-limiter");
+const { requestLogger } = require("./src/config/logger");
+const userRoutes = require("./src/router/user.router");
+const helmet = require("helmet");
+const app = express();
+app.use(helmet());
+app.use(express.json());
+app.use("/api", limiter);
+app.use(cookieParser());
+app.use(cors());
+app.use("/api/user", userRoutes);
+app.use(requestLogger);
+
+module.exports = app;
