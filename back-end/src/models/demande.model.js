@@ -1,6 +1,5 @@
 const { DataTypes } = require("sequelize");
 const db = require("../config/db");
-
 const Demande = db.define(
   "Demande",
   {
@@ -13,18 +12,18 @@ const Demande = db.define(
       },
     },
     dateStart: {
-      type: DataTypes.DATE,
-      allowNull: false,
+      type:DataTypes.DATE,
+      allowNull:false,
     },
     dateEnd: {
-      type: DataTypes.DATE,
-      allowNull: false,
+      type:DataTypes.DATE,
+      allowNull:false,
     },
   },
   {
-    timestamps: true,
-    underscored: true,
-    tableName: "demandes",
+    timestamps:true,
+    underscored:true,
+    tableName:"demandes",
   }
 );
 

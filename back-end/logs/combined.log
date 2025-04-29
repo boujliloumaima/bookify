@@ -75,3 +75,37 @@
 [2025-04-21 00:22:44] [INFO]:Liste des utilisateurs récupérée
 [2025-04-21 00:22:44] [INFO]:Liste des utilisateurs récupérée
 [2025-04-21 00:22:44] [WARN]:Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/user/users
+[2025-04-21 23:11:40] [INFO]:Service créé avec succès: Coiffure à domicile
+[2025-04-21 23:13:47] [INFO]:Service créé avec succès: Coiffure à domicile
+[2025-04-21 23:13:48] [INFO]:Service créé avec succès: Coiffure à domicile
+[2025-04-21 23:13:48] [WARN]:Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/services
+[2025-04-21 23:14:01] [WARN]:Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/services
+[2025-04-21 23:14:03] [WARN]:Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/services
+[2025-04-21 23:14:27] [WARN]:Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/services
+[2025-04-21 23:14:28] [WARN]:Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/services
+[2025-04-21 23:14:39] [WARN]:Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/services
+[2025-04-21 23:15:29] [INFO]:Récupération de 5 services.
+[2025-04-21 23:15:34] [INFO]:Récupération de 5 services.
+[2025-04-21 23:15:53] [INFO]:Service avec ID 3 récupéré.
+[2025-04-21 23:17:48] [WARN]:Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/services/3
+[2025-04-21 23:18:44] [INFO]:Service avec ID 3 mis à jour.
+[2025-04-21 23:18:52] [INFO]:HTTP PUT /api/services
+[2025-04-21 23:19:07] [INFO]:Récupération de 5 services.
+[2025-04-27 14:06:39] [INFO]:Liste des utilisateurs récupérée
+[2025-04-27 14:13:52] [INFO]: Liste des utilisateurs récupérée
+[2025-04-27 14:13:56] [INFO]: Liste des utilisateurs récupérée
+[2025-04-27 14:13:58] [INFO]: Liste des utilisateurs récupérée
+[2025-04-27 14:13:59] [WARN]: Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/user/users
+[2025-04-27 14:16:39] [WARN]: Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/user/user
+[2025-04-27 14:16:51] [WARN]: Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/user/user
+[2025-04-27 14:17:41] [INFO]: HTTP POST /api/user/user
+[2025-04-27 14:18:54] [INFO]: Nouvel utilisateur inscrit : john.doe@example.com
+[2025-04-27 14:19:14] [INFO]: Tentative d'inscription avec un email déjà utilisé : john.doe@example.com
+[2025-04-27 14:19:47] [INFO]: Nouvel utilisateur inscrit : bouj.omaima@example.com
+[2025-04-27 14:19:53] [INFO]: HTTP POST /api/user/users
+[2025-04-27 14:20:01] [INFO]: Liste des utilisateurs récupérée
+[2025-04-27 16:11:16] [INFO]: HTTP POST /api/events
+[2025-04-27 16:37:43] [WARN]: Rate limit atteint pour l'IP : ::1 - URL : /api/events
+[2025-04-27 16:37:45] [WARN]: Rate limit atteint pour l'IP : ::1 - URL : /api/events
+[2025-04-27 16:37:46] [WARN]: Rate limit atteint pour l'IP : ::1 - URL : /api/events
+[2025-04-28 19:50:03] [INFO]: HTTP POST /upload-images

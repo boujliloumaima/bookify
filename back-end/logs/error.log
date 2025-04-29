@@ -72,3 +72,21 @@
 [2025-04-21 00:22:44] [INFO]:Liste des utilisateurs récupérée
 [2025-04-21 00:22:44] [INFO]:Liste des utilisateurs récupérée
 [2025-04-21 00:22:44] [WARN]:Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/user/users
+[2025-04-21 23:11:40] [INFO]:Service créé avec succès: Coiffure à domicile
+[2025-04-21 23:13:47] [INFO]:Service créé avec succès: Coiffure à domicile
+[2025-04-21 23:13:48] [INFO]:Service créé avec succès: Coiffure à domicile
+[2025-04-21 23:13:48] [WARN]:Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/services
+[2025-04-21 23:14:01] [WARN]:Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/services
+[2025-04-21 23:14:03] [WARN]:Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/services
+[2025-04-21 23:14:27] [WARN]:Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/services
+[2025-04-21 23:14:28] [WARN]:Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/services
+[2025-04-21 23:14:39] [WARN]:Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/services
+[2025-04-21 23:15:29] [INFO]:Récupération de 5 services.
+[2025-04-21 23:15:34] [INFO]:Récupération de 5 services.
+[2025-04-21 23:15:53] [INFO]:Service avec ID 3 récupéré.
+[2025-04-21 23:17:48] [WARN]:Rate limit atteint pour l'IP : ::ffff:127.0.0.1 - URL : /api/services/3
+[2025-04-21 23:18:44] [INFO]:Service avec ID 3 mis à jour.
+[2025-04-21 23:18:52] [INFO]:HTTP PUT /api/services
+[2025-04-21 23:19:07] [INFO]:Récupération de 5 services.
+[2025-04-27 14:06:39] [INFO]:Liste des utilisateurs récupérée
+[2025-04-27 14:18:22] [ERROR]: Erreur lors de l'inscription notNull Violation: User.phone cannot be null

@@ -4,6 +4,8 @@ const cors = require("cors");
 const limiter = require("./src/middlewares/rate-limiter");
 const { requestLogger } = require("./src/config/logger");
 const userRoutes = require("./src/router/user.router");
+const serviceRoutes = require("./src/router/service.router");
+const eventrouter = require("./src/router/event.router");
 const helmet = require("helmet");
 const app = express();
 app.use(helmet());
@@ -12,6 +14,7 @@ app.use("/api", limiter);
 app.use(cookieParser());
 app.use(cors());
 app.use("/api/user", userRoutes);
+app.use("/api/services", serviceRoutes);
+app.use("/api/events", eventrouter);
 app.use(requestLogger);
-
 module.exports = app;
